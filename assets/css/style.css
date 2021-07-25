@@ -17,8 +17,8 @@
     --bg: #121212;
     --color-text: #e2e2e2;
     --banner: #fefefe;
-    --color-shadow: -3px -3px 10px rgba(255, 255, 255, 0.05),
-    3px 3px 15px rgba(0, 0, 0, 0.5);
+    --color-shadow: 3px 3px 3px #161616,
+    -3px -3px 3px #161616;
     --color-inset-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.01),
     inset 2px 2px 6px rgba(0, 0, 0, 0.8);
 }
