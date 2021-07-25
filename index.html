@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/font/css/all.css">
+</head>
+<body>
+
+    <div class="header">Music Player</div>
+
+    <div class="music__container">
+        <div class="theme ">
+            <i class="fas fa-moon"></i>
+        </div>
+        
+        <div class="img__container">
+            <img src="assets/img/arcade.jpg" alt="music-cover" id="cover">
+        </div>
+
+        <div class="music__info">
+
+            <h4 id="title">Arcade</h4>
+            <p id="author"></p>
+
+            <div class="progress-time">
+                <span id="currenttimetext" class="left">00:00</span>
+                <span id="durationtimetext" class="right">00:00</span>
+            </div>
+
+            <div class="progress__container">
+                <div class="progress"></div>
+                <div class="dot"></div>
+            </div>
+        </div>
+        
+        <audio src="assets/audio/arcade.mp3" id="audio"></audio>
+
+        <div class="navigation">
+            <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+            </button>
+            <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+
+    </div>
+    <div class="follow">
+        <div>Follow me</div>
+        <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100015966349198" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.instagram.com/vishwanath.official/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/vishwanath231" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://twitter.com/vishwanath231" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/vishwanath231/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+
+
+    
+    
+
+
+
+    
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
